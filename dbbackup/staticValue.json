@@ -1,0 +1,16 @@
+{
+  "MYSQL_DB_HOST": "192.168.***.***",
+  "MYSQL_DB_USER": "root",
+  "MYSQL_DB_USER_PASSWD": "123456",
+  "MYSQL_DB_NAME": ".\\dbbackup\\dbnames.txt",
+  "MYSQL_BACKUP_PATH": ".\\dbbackup\\mysql",
+  "MYSQL_DUMP_PATH": "C:\\Program Files\\MySQL\\MySQL Workbench 6.3 CE\\mysqldump.exe",
+  "MYSQL_ZIP_NAME":"MySQL_backup.zip",
+
+  "ORACLE_DB_HOST": "192.168.14.12",
+  "ORACLE_DB_USER": "qzaj",
+  "ORACLE_DB_USER_PASSWD": "qzaj",
+  "ORACLE_DB_NAME": ".\\dbbackup\\Oracledbnames.txt",
+  "ORACLE_BACKUP_PATH": ".\\dbbackup\\Oracle",
+  "ORACLE_ZIP_NAME":"Oracle_backup.zip"
+}
