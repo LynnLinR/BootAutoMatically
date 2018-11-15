@@ -12,7 +12,7 @@ while True:
     if not data:
         break
     data = data.encode(encoding = 'utf-8')
-    udpClient.sendto(data.addr)  # 发送数据
+    udpClient.sendto(data, addr)  # 发送数据
     data, addr = udpClient.recvfrom(bufsize)  # 接收数据和返回地址
     print(data.decode(encoding = 'utf-8'), 'from', addr)
 
